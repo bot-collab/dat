@@ -1,0 +1,57 @@
+﻿.proceso-inscripcion {
+  background-color: #f7f7f7;
+  border-radius: 5px 5px 0px 0px;
+  font-size: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  width: 730px;
+}
+
+.proceso-inscripcion .contenido {
+  border: 1px solid #ccc;
+  border-top: 0;
+  border-bottom: 0;
+  border-radius: 0px;
+  padding: 10px 0;
+}
+
+.proceso-inscripcion .item {
+  border-left: 1px solid #ddd;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 0px 15px;
+  width: 25%;
+}
+
+.proceso-inscripcion .item:first-child {
+  border-left: 0;
+}
+
+.proceso-inscripcion .item p {
+  color: #444;
+  font: 12px/1.4 sans-serif;
+  margin: 0.5em 0;
+}
+
+.proceso-inscripcion .titulo {
+  background-color: #094f6b;
+  color: #fff;
+  display: block;
+  font: 700 11px/1 sans-serif;
+  margin: 0;
+  padding: 0.9em 1.4em 0.7em;
+}
+
+.proceso-inscripcion .mensaje {
+  border-radius: 0px 0px 5px 5px;
+  border: 1px solid #ccc;
+  /*background-color: #fff;*/
+  color: #aa0101;
+  display: block;
+  font: 700 11px/1 sans-serif;
+  margin: 0;
+  padding: 0.9em 1.4em 0.7em;
+}

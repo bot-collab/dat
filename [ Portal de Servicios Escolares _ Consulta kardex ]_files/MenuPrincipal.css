@@ -1,0 +1,94 @@
+﻿/*Div de la izquierda que muestra el boton de desplazamiento*/
+.divFuncionesIzq
+{
+	background-image: url(../../Imagenes/Botones/btn_izq_menu.png);
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 60px;
+	cursor: pointer;
+	float: left;
+	background-position: 6px 0;
+}
+
+.divFuncionesIzq:hover, .divFuncionesIzq:active
+{
+	background-position: 6px -60px;
+}
+
+.divFuncionesIzqD
+{
+	background-image: url(../../Imagenes/Botones/btn_izq_menu2.png);
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 60px;
+	float: left;
+	background-position: 6px 0;
+}
+
+/*Div del centro que muestra las funciones*/
+#pnlFuncionesCentro
+{
+	float: left;
+	width: 470px;
+    height:48px;
+	padding-top: 8px;
+	overflow: hidden;
+}
+
+
+/*#divFuncionesCentro a:hover, #divFuncionesCentro a:active
+{
+	background-position: 0 -40px;
+}*/
+
+/*#divFuncionesCentro .TD
+{
+	padding-left:7px;
+	padding-right:7px;
+}*/
+
+/*Div de la derecha que muestra el boton de desplazamiento*/
+.divFuncionesDer
+{
+	background-image: url(../../Imagenes/Botones/btn_der_menu.png);
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 60px;
+	cursor: pointer;
+	float: right;
+	background-position: 6px 0;
+}
+
+.divFuncionesDer:hover, .divFuncionesDer:active
+{
+	background-position: 6px -60px;
+}
+
+.divFuncionesDerD
+{
+	background-image: url(../../Imagenes/Botones/btn_der_menu2.png);
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 60px;
+	float: right;
+	background-position: 6px 0;
+}
+
+/*Div que muestra la descripción de las funciones*/
+#divFuncionActiva
+{
+	width: 500px; 
+	height: 15px;
+	float: right; 
+	border: solid 1px #e5f3d7; 
+	background-color: #f8fcf3;
+	padding: 0 0 5px 10px;
+}
+
+/*Div que muestra las opciones del portal*/
+#divContenido
+{
+	width: 100%; 
+	height: 40px;
+	float:left;
+}

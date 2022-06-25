@@ -1,0 +1,49 @@
+﻿//[Mover] - Codigo para el control del menu
+var lintPos = 0, lintSaltos = 0;
+
+function addLoadEvent(func) {
+    var oldonload = window.onload;   
+    if (typeof window.onload != 'function') {   
+        window.onload = func;   
+    } else {   
+        window.onload = function() {   
+        if (oldonload) {   
+            oldonload();   
+        }   
+            func();
+        }
+    }   
+}
+
+function Mover() {
+    var objDiv = document.getElementById('divFuncionesCentro');
+    var objDivI = document.getElementById('divFuncionesIzq');
+    var objDivD = document.getElementById('divFuncionesDer');
+
+    if (objDiv)
+    {
+        if (objDiv.scrollWidth <= objDiv.clientWidth)
+        {
+            objDivD.className = 'divFuncionesDerD';
+            objDivI.className = 'divFuncionesIzqD';
+        }
+        if (lintSaltos != 0) {
+            lintPos = objDiv.scrollLeft + lintSaltos;
+            if (lintPos <= 0)
+                lintPos = 0;
+            else
+                if (lintPos >= objDiv.scrollWidth - objDiv.clientWidth)
+                lintPos = objDiv.scrollWidth - objDiv.clientWidth;
+            objDiv.scrollLeft = lintPos;
+        }
+    }
+}
+//Fin [Mover]
+addLoadEvent(function() { setInterval("Mover()",10); });
+// [CargaReporte] - Muestra el reporte
+function CargaReporte(ipDatos) {
+    objifReporte = document.getElementById('ifImprimir');
+    objifReporte.src = '../Publico/Reporteador.aspx?ipAncho=' + intAncho + '&ipAlto=' + intAlto + '&ipDatos=' + ipDatos;
+    objReporteador.Show();
+}
+// Fin [CargaReporte]

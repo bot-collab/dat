@@ -1,0 +1,1384 @@
+﻿/*  OBJETOS  */
+body {
+    margin: 0px;
+    font-family: Arial;
+    /*background-image: url("../../Imagenes/fondo.jpg");*/
+    background-color: #E7E9EC
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h3 {
+    color: #266786;
+    font: 16px Arial, sans-serif;
+    margin: 50px 0 25px;
+}
+
+p {
+    color: #333;
+    font: 12px/14px Arial, sans-serif;
+}
+
+/* Texto en general */
+.Gral {
+    font-family: Arial;
+    font-size: 8pt;
+    color: #303030;
+}
+
+.TituloPagina {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    color: #266786;
+    width: 100%;
+    margin: 50px 0px 30px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #e2e2e2;
+    float: left;
+}
+
+div.DescAD {
+}
+
+    div.DescAD p {
+        font-family: Arial;
+        display: block;
+        margin-bottom: 10px;
+        font-size: 11px;
+        color: #333333;
+        line-height: 120%;
+    }
+
+    div.DescAD ul {
+        font-family: Arial;
+        font-size: 11px;
+        color: #333333;
+    }
+
+span.Titulos {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    display: block;
+    width: 100%;
+    margin: 20px 0px 7px;
+}
+
+a.enlace {
+    font-family: Arial;
+    font-size: 11px;
+    color: #333333;
+}
+
+.divTitulos {
+    float: left;
+    width: 29%;
+    text-align: right;
+    padding: 3px 5px 0 0;
+    vertical-align: middle;
+    height: 22px;
+}
+
+.divDatos {
+    float: right;
+    width: 69%;
+    text-align: left;
+    padding-left: 5px;
+    vertical-align: middle;
+    height: 25px;
+}
+
+
+.divEspacio {
+    height: 3px;
+    background-color: White;
+}
+
+/*  CLASES  */
+
+a.MasterMenu:link, a.MasterMenu:visited {
+    color: White;
+    font-size: 8pt;
+}
+
+a.MasterMenu:hover {
+    color: #72c1e6;
+    font-size: 8pt;
+}
+
+div.MasterFondoTitulo {
+    /*background-image: url(../../Imagenes/fondoArriba.jpg);
+    background-repeat: repeat-x;*/
+    margin: 0 auto;
+}
+
+div.MasterTitulo {
+    /*background-image: url(../../Imagenes/headerFondo.jpg);
+    background-repeat: no-repeat;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 770px; 
+    height: 79px;
+    color: white;
+}
+
+div.MasterTitulo > p{
+    color: white;
+    font-size: 12px;
+    margin-top: -20px;
+}
+
+div.MasterFondoLogin {
+    /*background-image: url('../../Imagenes/logIn_Fondo.jpg');
+    background-repeat: no-repeat;*/
+    background-color: #000000;
+    border-radius:5px;
+    padding-left: 5px;
+    padding-top: 7px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    width: 354px; 
+    height: 79px;
+}
+
+span.MasterEtiqutasLogin {
+    font-family: Arial;
+    font-size: 8pt;
+    color: #bababa;
+}
+
+a.MasterLigaLogin:link, a.MasterLigaLogin:visited {
+    color: #f2f6c0;
+    font-size: 9px;
+    text-decoration: underline;
+}
+
+a.MasterLigaLogin:hover {
+    color: #f2f6c0;
+    font-size: 9px;
+    text-decoration: none;
+}
+
+div.MasterFondoPie {
+    /*background: url(../../Imagenes/footerBoxFondo.jpg) repeat-x;*/
+    background-color: #B11830;
+    float: left;
+    margin: 30px auto 0;
+    overflow: auto;
+    width: 100%;
+}
+
+div.MasterPie {
+    /*background-image: url(../../Imagenes/logo-ujed.png);
+    background-repeat: no-repeat;*/
+    margin: 0 auto;
+}
+
+div.AvisoPrivacidad {
+    background-color: #222;
+    font-size: 11px;
+    text-align:center;
+    float:left;
+    width:100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+div.AvisoPrivacidad > a {
+    color:#CCC;
+}
+
+div.AvisoPrivacidad > a:hover {
+    text-decoration:none;
+}
+
+div.ElementoIzq {
+    clear: left;
+    float: left;
+    height: 25px;
+    width: 200px;
+    padding-right: 5px;
+    text-align: right;
+}
+
+div.ElementoDer {
+    clear: right;
+    float: left;
+    height: 25px;
+    text-align: left;
+}
+
+/* Contacto, PreguntasF, CambiaPass, CambiaPreg, */
+.Contacto {
+    border-bottom: 1px solid #1e1e1e;
+    width: 735px;
+    margin: 40px 0 20px;
+    padding: 0;
+    border-bottom: 1px #e2e2e2 solid;
+}
+
+.DesContacto {
+    font-family: Arial;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: left;
+    vertical-align: middle;
+    width: 730px;
+    line-height: 18px;
+}
+
+.DesContacto2 {
+    width: 730px;
+    /*margin-right : 23px;*/
+    padding-top: 7px;
+    padding-bottom: 5px;
+    font-family: Arial;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.PanIzq {
+    float: left;
+    height: 304px;
+    width: 130px;
+}
+
+.PanCentro {
+    margin: 40px auto;
+    text-align: center;
+    width: 470px;
+}
+
+.PanDer {
+    float: left;
+    height: 304px;
+    width: 130px;
+}
+
+.xtraPan {
+    float: left;
+    width: 730px;
+    margin-top: 20px;
+}
+
+.TituloPanCentro {
+    background-color: #335f82;
+    color: #ffffff;
+    font: 11px Arial, sans-serif;
+    height: 21px;
+    padding-top: 5px;
+    position: relative;
+    top: -10px;
+    text-align: center;
+    width: 470px;
+}
+
+.ContPanCentro {
+    background-color: #f9fcf3;
+    border: 1px solid #e5f2d6;
+    padding: 10px 0;
+}
+
+.MultiLineTextBox {
+    overflow: auto;
+}
+
+/* ContPanCentro Herencia */
+.IzqCont {
+    background-color: #f9fcf3;
+    float: left;
+    padding: 16px 2px 4px 0;
+    text-align: right;
+    width: 150px;
+}
+
+.DerCont {
+    background-color: #f9fcf3;
+    float: left;
+    padding: 10px 2px 10px 2px;
+    text-align: left;
+    width: 310px;
+}
+
+.CompCont {
+    background-color: #f9fcf3;
+    float: left;
+    padding: 16px 2px 4px 0;
+    text-align: right;
+    width: 460px;
+}
+
+.DerCont textarea {
+    border: 1px solid #b3b3b3;
+}
+
+.FondoCont {
+    width: 65px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: #f9fcf3;
+}
+
+.FondoCont2 {
+    float: left;
+    width: 200px;
+    margin: auto;
+    padding: 5px 2px 2px 5px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #f9fcf3;
+}
+
+/* Form PreguntasF */
+.PreFre {
+    width: 730px;
+    padding-top: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #1e1e1e;
+}
+
+.SigTit {
+    width: 730px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #f9fcf3;
+    border-width: 1px;
+    border-color: #e5f2d6;
+    border-style: solid;
+    font-family: Arial;
+    text-align: center;
+}
+
+.ConPre {
+    width: 730px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.Fin {
+    width: 730px;
+    padding-top: 15px;
+}
+
+.VPagoDato {
+    width: 700px;
+    margin-bottom: 35px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.VPagoL {
+    float: left;
+    width: 330px;
+    text-align: left;
+    vertical-align: middle;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.VPagoR {
+    float: left;
+    width: 330px;
+    text-align: left;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+.ContenedorBoton {
+    width: 730px;
+    margin: 10px auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+/* Master Servicios */
+div.MasterServiciosCredencial {
+    background: url(../../Imagenes/credencial.png) no-repeat;
+}
+
+#divFoto {
+    position: absolute;
+    top: 22px;
+    left: 19px;
+    width: 62px;
+    height: 84px;
+}
+
+    #divFoto img {
+        width: 62px;
+        height: 84px;
+    }
+
+#divCerrar {
+    position: absolute;
+    top: 10px;
+    right: 13px;
+}
+
+#divApellidos {
+    position: absolute;
+    bottom: 95px;
+    left: 95px;
+}
+
+#divNombres {
+    position: absolute;
+    bottom: 78px;
+    left: 95px;
+}
+
+#divCiclo {
+    position: absolute;
+    bottom: 55px;
+    width: 180px;
+    text-align: right;
+    left: 95px;
+}
+
+#divTituloCarrera {
+    position: absolute;
+    left: 20px;
+    bottom: 24px;
+}
+
+#divCarrera {
+    position: absolute;
+    right: 25px;
+    bottom: 20px;
+    width: 200px;
+}
+
+#xcbCarreras {
+    border: solid 1px darkgray;
+}
+
+/* Termina Master Servicios */
+
+
+/*
+td.MasterFondoTitulo
+{
+	background-image: url("../../Imagenes/fondoArriba.jpg");
+}
+
+table.MasterTitulo
+{
+	background-image: url("../../Imagenes/headerFondo.jpg");
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+
+
+td.MasterFondoMenu
+{
+	background-image : url("../../Imagenes/fondo.jpg");
+}
+*/
+
+/*  ID's  */
+#LigaMenu {
+    color: #FFFFFF;
+}
+
+.Gral {
+    font-family: Arial;
+    font-size: 12px;
+    color: #333333;
+    text-align: left;
+}
+
+.Respuestas {
+    font-family: Arial;
+    font-size: 10px;
+    color: #666666;
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.Gral2 {
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: bold;
+    color: #000000;
+    margin-right: 0px;
+}
+
+.Gral3 {
+    font-family: Arial;
+    font-size: 10px;
+    color: #666666;
+    word-spacing: 4px;
+    text-align: center;
+    width: 1px;
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 30px;
+}
+
+/* Evaluacion Académica*/
+.FuenteBold {
+    font-weight: bold;
+}
+
+.GralMM {
+    font-family: Arial;
+    font-size: 12px;
+    color: #333333;
+    text-align: left;
+}
+
+.GralGP {
+    font-family: Arial;
+    font-size: 16px;
+    color: #266786;
+    text-align: left;
+}
+
+.GralPr {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+    color: #333333;
+    text-align: left;
+}
+
+.GralRs {
+    font-family: Arial;
+    font-size: 12px;
+    color: #333333;
+    text-align: left;
+}
+
+.GralCi {
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #335f82;
+    height: 22px;
+}
+
+.GralTb {
+    margin-left: 40px;
+    border-color: #BBBBBB;
+    border-width: 1px;
+    border-style: solid;
+    border-left: 1px dotted #C0C0C0;
+    border-spacing: 1px;
+}
+
+.Respuest {
+    font-family: Arial;
+    font-size: 10px;
+    color: #666666;
+    /*border-bottom: 1px solid #BBBBBB;*/
+    height: 35px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.IzR {
+    padding-left: 10px;
+    border-left: 1px solid #BBBBBB;
+    background-color: #FDFDFD;
+    vertical-align: middle;
+    width: 300px;
+}
+
+.IzRAlt {
+    padding-left: 10px;
+    border-left: 1px solid #BBBBBB;
+    background-color: #F0F0F0;
+    vertical-align: middle;
+    width: 300px;
+}
+
+.Ren {
+    border-left: 1px dotted #C0C0C0;
+    background-color: #FDFDFD;
+    vertical-align: middle;
+    width: 300px;
+}
+
+.RenAlt {
+    border-left: 1px dotted #C0C0C0;
+    background-color: #F0F0F0;
+    vertical-align: middle;
+    width: 300px;
+}
+
+/* REPORTEADOR */
+
+.titulos {
+    text-align: center;
+    background-image: url(../../Imagenes/titulos_vineta.png);
+    background-repeat: no-repeat;
+    background-position: 8px 5px;
+    background-color: #fdfdfd;
+    border: 1px solid #dadada;
+    margin: 0 24px;
+    padding-top: 2px;
+    padding-left: 25px;
+    height: 16px;
+}
+
+.letraGral {
+    color: #444444;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: left;
+}
+
+/* Biblioteca */
+
+.TituloDoc {
+    font-family: Arial;
+    font-size: 16px;
+    color: #266786;
+    text-align: left;
+    font-weight: bold;
+}
+
+.DescripcionDoc {
+    font-family: Arial;
+    font-size: 13px;
+    color: Black;
+    text-align: justify;
+}
+
+.LigaDoc {
+    font-family: Arial;
+    font-size: 13px;
+    color: #266786;
+    text-align: left;
+}
+
+.SeparaDoc {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+/* Extemp */
+.GridExt {
+    text-align: center;
+    width: 730px;
+    float: left;
+    margin: 0px auto;
+}
+
+.RowHeighExt {
+    height: 25px;
+    vertical-align: middle;
+}
+
+.FocusedRowExt {
+    height: 25px;
+    background-color: #FFFCE9;
+    color: Black;
+    vertical-align: middle;
+}
+
+.AlternatingRowExt {
+    height: 25px;
+    background-color: #F0F0F0;
+    vertical-align: middle;
+}
+
+/* INSCRIPCION */
+.divTitulo {
+    width: 742px;
+    margin: 0px auto 30px;
+    padding: 15px 0px 1px;
+    border-bottom: 1px #e2e2e2 solid;
+}
+
+.divInstrucciones {
+    width: 737px;
+    margin: 0px auto 30px;
+    /*background:url('../../Imagenes/materiasMuestra.png') no-repeat right top;*/
+    text-align: justify;
+    /*float:left;*/
+    padding-left: 0px;
+}
+
+.instrucciones {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.2em;
+    /*width:340px;*/
+    display: block;
+    width: 737px;
+    margin: 0 auto 30px;
+}
+
+.divInstrucciones img {
+    float: right;
+    margin-left: 10px;
+}
+
+.pestana {
+    background: url('../../Imagenes/pestana.png') no-repeat left top;
+    height: 22px;
+    width: 150px;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+
+.btnEC {
+    margin: 3px 10px 0px 5px;
+    float: left;
+}
+
+.titulosPestana {
+    font-family: Arial, Helvetica, serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    float: left;
+    margin-top: 3px;
+}
+
+.materias {
+    background-color: #FCFCFC;
+    border: 1px #BBBBBB solid;
+    border-bottom: 0px;
+    float: left;
+    width: 736px;
+    position: relative;
+    top: -1px;
+    padding-bottom: 4px;
+}
+
+.materiasCreditos {
+    border-bottom: 1px #BBBBBB solid;
+}
+
+.pieExpandido {
+    background-color: #335F82;
+    float: left;
+    width: 738px;
+    height: 16px;
+    position: relative;
+    top: -1px;
+    /* Texto */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #FFFFFF;
+    padding-top: 6px;
+    text-indent: 15px;
+}
+
+.pieContraido {
+    background-color: #FCFCFC;
+    border: 1px #BBBBBB solid;
+    float: left;
+    width: 736px;
+    height: 16px;
+    position: relative;
+    top: -1px;
+    /* Texto */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #333333;
+    padding-top: 6px;
+    text-indent: 15px;
+}
+
+.separador {
+    height: 20px;
+    width: 739px;
+    background-color: transparent;
+    float: left;
+    position: relative;
+}
+
+.ul_materias {
+    list-style: none;
+    width: 727px;
+    margin: 5px;
+}
+
+    .ul_materias li {
+        background-image: url('../../Imagenes/materiasFondo.png');
+        height: 16px;
+        width: 311px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        padding-top: 6px;
+        padding-left: 40px;
+        float: left;
+        margin: 4px 6px;
+        position: relative;
+    }
+
+.li_disponible {
+    background-position: 0 0;
+    cursor: pointer;
+}
+
+    .li_disponible p {
+        font-size: 9px;
+        color: #999999;
+        position: relative;
+        bottom: 13px;
+        left: 295px;
+        width: 15px;
+    }
+
+.li_elegida {
+    background-position: 0 -22px;
+    cursor: pointer;
+}
+
+    .li_elegida p {
+        font-size: 9px;
+        color: #D8BD5D;
+        position: relative;
+        bottom: 13px;
+        left: 295px;
+        width: 15px;
+    }
+
+.li_aprobada {
+    background-position: 0 -44px;
+}
+
+    .li_aprobada p {
+        font-size: 9px;
+        color: #3BBD2E;
+        position: relative;
+        bottom: 13px;
+        left: 295px;
+        width: 15px;
+    }
+
+.li_no_disponible {
+    background-position: 0 -66px;
+    color: #888888;
+    position: relative;
+    cursor: pointer;
+}
+
+    .li_no_disponible p {
+        font-size: 9px;
+        color: #999999;
+        position: relative;
+        bottom: 13px;
+        left: 295px;
+        width: 15px;
+    }
+
+.li_reprobada {
+    background-position: 0 -88px;
+    cursor: pointer;
+}
+
+    .li_reprobada p {
+        font-size: 9px;
+        color: #999999;
+        position: relative;
+        bottom: 13px;
+        left: 295px;
+        width: 15px;
+    }
+
+.li_reprobada_seleccionada {
+    background-position: 0 -22px;
+    cursor: pointer;
+}
+
+    .li_reprobada_seleccionada p {
+        font-size: 9px;
+        color: #D8BD5D;
+        position: relative;
+        bottom: 13px;
+        left: 295px;
+        width: 15px;
+    }
+
+.ul_materias li a:active, a:visited, a:link, a:hover {
+    text-decoration: none;
+    color: #888888;
+}
+
+.ul_materias_creditos {
+    width: 727px;
+    margin: 5px;
+}
+
+    .ul_materias_creditos li {
+        background-image: url('../../Imagenes/materiasFondo_creditos.png');
+        height: 16px;
+        width: 311px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        padding-top: 6px;
+        padding-left: 40px;
+        float: left;
+        margin: 4px 6px;
+    }
+
+        .ul_materias_creditos li a:active, a:visited, a:link, a:hover {
+            text-decoration: none;
+            color: #888888;
+        }
+
+.divCadenas {
+    position: absolute;
+    top: -77px;
+    left: 25px;
+    display: none;
+}
+
+.info {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    background-color: #FFFFFF;
+    border: 1px #335F82 solid;
+    padding: 10px;
+}
+
+.divFlecha {
+    background-image: url('../../Imagenes/avisoFlecha.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    position: relative;
+    top: -1px;
+    left: 200px;
+    width: 16px;
+    height: 15px;
+}
+
+.ul_cadenas li {
+    background-image: none;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin: 5px 0px;
+    float: none;
+    height: auto;
+    width: auto;
+}
+
+.primer_renglon {
+    color: #333333;
+    padding-bottom: 10px;
+}
+
+.indicaSemestre {
+    color: #737373;
+}
+
+.indicaMateria {
+    color: #094F6B;
+    margin-bottom: 4px;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - -  VARIOS */
+
+.div_informacion {
+    float: left;
+    margin: 20px 0;
+    overflow: auto;
+    padding: 20px 30px;
+    width: 314px;
+}
+
+    .div_informacion p {
+        margin-top: 20px;
+    }
+
+#divMenu_tabla tr {
+    height: 24px;
+}
+
+#divMenu_tabla td {
+    /*padding-top:3px;*/
+    text-align: center;
+}
+
+    #footer_table td {
+        text-align: right;
+    }
+
+#panelLogIn_table {
+    border-collapse: collapse;
+    margin-left: 15px;
+    width: 313px;
+}
+
+    #panelLogIn_table > tbody tr > td > table {
+        width: 107px;
+    }
+
+    #panelLogIn_table > tbody > tr > td {
+        padding-top: 2px;
+    }
+
+    #panelLogIn_table td table {
+        border-color: #000;
+    }
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - -  LISTAS */
+
+/*      ------------  ul vinetas   ------------ */
+
+.ul_vinetas {
+    color: #333;
+    font: 12px/16px Arial, sans-serif;
+    margin-top: 5px;
+    text-align: left;
+}
+
+    .ul_vinetas li {
+        background: url(../../Imagenes/vineta_azul.png) no-repeat 0px 5px;
+        /*display:inline-block;*/
+        padding-left: 15px;
+        margin-bottom: 5px;
+    }
+
+        .ul_vinetas li a:link, .ul_vinetas li a:visited {
+            color: #333;
+            text-decoration: underline;
+        }
+
+        .ul_vinetas li a:hover, .ul_vinetas li a:active {
+            color: #666;
+            text-decoration: none;
+        }
+
+/*      ------------  ol numerada  ------------ */
+
+.ol_numerada {
+    display: inline-block;
+    font: 12px/16px Arial, Helvetica, sans-serif;
+    margin: 10px 0 0 20px;
+    text-align: left;
+    list-style-position: outside;
+    list-style-type: decimal;
+}
+
+    .ol_numerada li {
+        color: #444;
+        margin-bottom: 10px;
+    }
+
+        .ol_numerada li a:link, .ol_numerada li a:visited {
+            color: #333;
+            text-decoration: underline;
+        }
+
+        .ol_numerada li a:hover, .ol_numerada li a:active {
+            color: #666;
+            text-decoration: none;
+        }
+
+
+/*  ---------------  slide ------------  */
+#slideBox {
+    height: 186px;
+    margin: 0 auto;
+    position: relative;
+    width: 730px;
+}
+
+    #slideBox img {
+        left: 0;
+        position: absolute;
+        top: 0;
+    }
+/*  ------------- fin slide ----------  */
+
+/***********Detección Temprana***********/
+.LigaNombre:link, .LigaNombre:visited, .LigaNombre:active {
+    text-decoration: none;
+}
+
+.LigaNombre:hover {
+    text-decoration: underline;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - -  TABLAS */
+
+/*      ------------  tabla-general   ------------ */
+
+.tabla-general {
+    margin-top: 25px;
+    width: 100%;
+}
+
+    .tabla-general thead {
+        background-color: #335f82;
+        border: 1px solid #335f82;
+        color: #fff;
+        font: 12px/1 sans-serif;
+    }
+
+    .tabla-general td {
+        border: 1px solid #ccc;
+        color: #333;
+        font: 12px/14px sans-serif;
+        padding: 10px;
+    }
+
+    .tabla-general th {
+        padding: 6px 0 4px;
+    }
+
+.tabla {
+    margin-top: 10px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+}
+
+    .tabla thead {
+        background-color: #335f82;
+        border: 1px solid #335f82;
+        color: #fff;
+    }
+
+    .tabla th {
+        padding: 6px 0;
+        text-align: center;
+        background-color: #335f82;
+        color: #fff;
+    }
+
+    .tabla td {
+        border: 1px solid #ccc;
+        color: #333;
+        padding: 5px;
+    }
+
+.tabla-ujed {
+    margin-top: 10px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+}
+
+    .tabla-ujed thead {
+        background-color: #b11830;
+        border: 1px solid #b11830;
+        color: #fff;
+    }
+
+    .tabla-ujed th {
+        padding: 6px 0;
+        text-align: center;
+        background-color: #b11830;
+        color: #fff;
+    }
+
+    .tabla-ujed td {
+        border: 1px solid #ccc;
+        color: #333;
+        padding: 5px;
+    }
+
+/**** Labels En Exentos ****/
+.labelTitulo {
+    float: left;
+    text-align: right;
+    padding: 2px 5px 0 0;
+    margin: 3px 0px;
+    height: 23px;
+}
+
+/*-------------------------------*/
+div.CapturaProrrogas {
+    float: left;
+    margin-bottom: 5px;
+}
+
+.Izquierda {
+    height: 20px;
+    padding-top: 5px;
+    width: 160px;
+    padding-right: 10px;
+}
+
+.Derecha {
+    height: 22px;
+    padding-top: 3px;
+    width: 300px;
+}
+
+/***** TUTORÍAS *****/
+.divContenido {
+    margin: 0 auto 50px;
+}
+
+div.FullSpace {
+    width: 95%;
+}
+
+.gridCentrado {
+    margin: 10px auto;
+}
+
+.PrintButton {
+    margin-top: 10px;
+    float: right;
+    border-radius: 5px;
+}
+
+/* Paneles de alertas */
+.alert {
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 1.4em;
+    margin: 0 0 15px;
+    /*display: inline-block;*/
+}
+    .alert ul{
+        list-style: square outside;
+        margin-left: 20px;
+        padding-left: 0;
+    }
+
+    .alert p{
+        font-size: 12px;
+        line-height: 1.4em;
+    }
+
+.alert--bordered {
+    border: 1px solid #ddd;
+}
+
+.alert--bordered_danger {
+    border: 1px solid #B11830;
+}
+
+.alert--title {
+    text-align: center;
+    background-color: #B11830;
+    color: whitesmoke;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 4px 4px 0 0;
+}
+
+.alert--content {
+    padding: 1.2em;
+}
+
+.alert__title {
+    color: #455;
+    font-weight: 700;
+    display: block;
+}
+
+.alert--info {
+    background-color: #F0F8FF;
+    color: #000;
+}
+    .alert--info p {
+        text-decoration: underline;
+    }
+
+.alert--warning {
+    background-color: #fff6bf;
+    color: #b53;
+}
+
+    .alert--warning .alert__title {
+        color: #b53;
+    }
+
+    .alert--warning .alert__close {
+        color: #b53;
+    }
+
+    .alert--warning__list {
+        color: #333;
+    }
+
+    .alert--warning p {
+        color: #333;
+    }
+
+.alert--danger{
+    background-color: #B11830;
+    color: whitesmoke;
+}
+
+    .alert--danger__list {
+        color: whitesmoke;
+    }
+
+    .alert--danger p {
+        color: whitesmoke;
+    }
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 12px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+    background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+    padding: 0px 18px;
+    background-color: #f1f1f1;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+    .content > ul {
+        margin: 10px;
+        list-style: square;
+    }
+
+    .content > ul > li {
+        color: #444;
+        font-size: 12px;
+    }
+
+.collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 10px;
+    color: black !important;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
